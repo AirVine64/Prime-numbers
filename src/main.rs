@@ -1,7 +1,7 @@
 fn main() {
     //Variables
     let start: i128 = 1;
-    let end: i128 = 20;
+    let end: i128 = 25000;
     let mut z: i128;
 
     //Main part
