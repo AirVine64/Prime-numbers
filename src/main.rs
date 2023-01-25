@@ -7,7 +7,7 @@ fn main() {
     let mut z: i128;
 
     //Main part
-    for i in 1..1000 {
+    for i in (1..100000).step_by(2) {
         z = 1;
         for j in 2..i+1 {
             if i%j == 0 {
