@@ -8,14 +8,15 @@ fn main() {
 
     //Main part
     for i in (1..100000).step_by(2) {
-        z = 1;
+        z = 0;
         for j in 2..i+1 {
             if i%j == 0 {
                 z = z + 1;
+                if z != 1 {
+                    println!("{}", i);
+                    break;
+                }
             }
-        }
-        if z == 2 {
-            println!("{}", i);
         }
     }
     let elapsed = now.elapsed();
