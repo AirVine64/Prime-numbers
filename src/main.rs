@@ -3,6 +3,7 @@ use std::time::Instant;
 
 fn main() {
     //Variables
+    let now = Instant::now();
     let mut primes: Vec<i32> = Vec::new();
     let mut z: i32;
     let now = Instant::now();
