@@ -6,7 +6,6 @@ fn main() {
     let now = Instant::now();
     let mut primes: Vec<i32> = Vec::new();
     let mut z: i32;
-    let now = Instant::now();
 
     //Main part
     for i in (1..100000).step_by(2) {
